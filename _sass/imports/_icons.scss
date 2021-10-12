@@ -104,42 +104,26 @@
     background-image: url(/images/home.gif);
 }
 
-.home:hover {
-    background-image: url(/images/home_change.gif);
-}
 .beschreibung {
     background-image: url(/images/beschreibung.gif);
 }
 
-.beschreibung:hover {
-    background-image: url(/images/beschreibung_change.gif);
-}
 .preise {
     background-image: url(/images/preise.gif);
 }
 
-.preise:hover {
-    background-image: url(/images/preise_change.gif);
-}
 .kontakt {
     background-image: url(/images/kontakt.gif);
 }
 
-.kontakt:hover {
-    background-image: url(/images/kontakt_change.gif);
-}
 .bilder {
     background-image: url(/images/bilder.gif);
-}
-
-.bilder:hover {
-    background-image: url(/images/bilder_change.gif);
 }
 
 .impressum {
     background-image: url(/images/impressum.gif);
 }
 
-.impressum:hover {
-    background-image: url(/images/impressum_change.gif);
+.home:hover, .beschreibung:hover, .preise:hover, .kontakt:hover , .bilder:hover, .impressum:hover {
+    filter: saturate(3.5) hue-rotate(285deg);
 }
